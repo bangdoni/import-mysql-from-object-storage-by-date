@@ -1,9 +1,11 @@
 # Description
-This script for download and restore backup file(s) by date from object storage like AWS S3, Linode Object Storage, etc. You can download and try the backup script from [this repository](https://breakdance.github.io/breakdance/).
+This script for download and restore backup file(s) by date from object storage like AWS S3, Linode Object Storage, etc. You can download and try the backup script from [this repository](https://github.com/bangdoni/backup-mysql-to-object-storage).
 
 ## How to use
 
 - Download from this repository
+- Create a directory, example: import-mysql
+- Move import-mysql-from-object-storage-by-date.sh to import-mysql folder
 - Change permission. chmod 755 import-mysql-from-object-storage-by-date.sh
 - ./import-mysql-from-object-storage-by-date.sh
 - Input your backup file(s) date (same as in your object storage folder, example: 11-Nov-2021)
